@@ -21,7 +21,7 @@
             <Entry Text="are demonstrating" />
             <Entry Text="implicit styles," />
             <Entry Text="and an implicit style override" BackgroundColor="Lime" TextColor="Red" />
-            <local:CustomEntry Text="Subclassed Entry is not receiving the style" />
+            <local:CustomEntry Text="Subclassed Entry is not receiving the style"></local:CustomEntry>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
