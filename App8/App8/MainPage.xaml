@@ -25,6 +25,9 @@
                 <Button x:Name="Item4" Text="ImplicitControlDemo"/>
             </StackLayout>
         </StackLayout>
+        <StackLayout>
+            <Button x:Name="Item8" Text="ExampleCSS"/>
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>

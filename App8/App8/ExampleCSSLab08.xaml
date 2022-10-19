@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App8.ExampleCSSLab08" 
+             x:Name="contentpage">
+    <ContentPage.Resources>
+        <StyleSheet Source="/Assets/styles.css" />
+    </ContentPage.Resources>
+    <ContentPage.Content >
+        <StackLayout Margin="10" Padding="10">
+            <Label x:Name="title" Text="Example with CSS"/>
+            <Label StyleClass="label" Text="First label with style class"/>
+            <Label StyleClass="label" Text="Second label with style class"/>
+            <Entry x:Name="entry"/>
+            <Button x:Name="button" Text="Button with CSS" Padding="2" Margin="60, 30, 60, 60"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

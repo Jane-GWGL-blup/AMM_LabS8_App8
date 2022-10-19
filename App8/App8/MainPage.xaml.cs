@@ -41,6 +41,10 @@ namespace App8
             {
                 await Navigation.PushAsync(new DynamicDemo());
             };
+            Item8.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new ExampleCSSLab08());
+            };
         }
     }
 }
